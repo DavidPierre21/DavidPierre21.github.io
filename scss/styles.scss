@@ -1003,6 +1003,16 @@ footer {
 // Collapse timeline
 @media only screen and (max-width: 750px) {
 
+    header{
+        ul {
+            background: $background;
+        }
+
+        a {
+            color: $base-color;
+        }
+    }
+
     #experience-timeline {
         &:before, &:after {
             left: 23px;
@@ -1031,6 +1041,16 @@ footer {
 
 // Medium Devices
 @media only screen and (max-width : 992px) {
+
+    header{
+        ul {
+            background: $background;
+        }
+
+        a {
+            color: $base-color;
+        }
+    }
 
     #lead {
         height: auto;
@@ -1078,6 +1098,14 @@ footer {
         animation: none;
         bottom: 0;
         height: 100%;
+
+        ul {
+            background: $background;
+        }
+
+        a {
+            color: $base-color;
+        }
     }
 
     #mobile-menu-open, #mobile-menu-close {
@@ -1149,6 +1177,16 @@ footer {
 
 // Extra Small Devices
 @media only screen and (max-width : 480px) {
+
+    header{
+        ul {
+            background: $background;
+        }
+
+        a {
+            color: $base-color;
+        }
+    }
 
     #lead-content {
         h1 {
