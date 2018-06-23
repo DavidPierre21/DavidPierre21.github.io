@@ -113,4 +113,25 @@
         });
     });
 
+
+
+    function checkScroll(){
+        var startY = $('#menu').height() * 2; //The point where the navbar changes in px
+    
+        if($(window).scrollTop() > startY){
+            $('#menu').addClass("scrolled");
+            $('#menu').addClass("shadow");
+        }else{
+            $('#menu').removeClass("scrolled");
+            $('#menu').removeClass("shadow");
+        }
+    }
+
+    if($('#menu').length > 0){
+        $(window).on("scroll load resize", function(){
+            checkScroll();
+        });
+    }
+
+
 })(jQuery);

@@ -134,7 +134,7 @@ body {
 }
 
 header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -147,9 +147,10 @@ header {
 
     ul {
         display: inline-block;
-        background: $background;
+        background: rgba($background, 0);
         text-align: center;
         padding: 10px;
+        color: $background;
         margin: 0;
         border-bottom-right-radius: 4px;
         border-bottom-left-radius: 4px;
@@ -161,7 +162,7 @@ header {
 
     a {
         display: block;
-        color: $base-color;
+        color: $background;
         padding: 10px;
 
         &:hover {
@@ -185,12 +186,27 @@ header {
         position: fixed;
         z-index: 999;
     }
+
+    .scrolled {
+        background: rgba($background, 0.9); /* IE */
+        background: rgba($background, 0.9); /* NON-IE */
+        a{
+            color: $base-color;
+        }
+    }
 }
 
 #menu {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+
     &.active {
         display: block;
     }
+
 }
 
 #mobile-menu-open {
