@@ -1062,6 +1062,10 @@ footer {
         }
     }
 
+    .ul-social {
+        font-size: 75%;
+    }
+
 }
 
 // Small Devices
@@ -1137,6 +1141,10 @@ footer {
         text-align: center;
     }
 
+    .ul-social {
+        font-size: 65%;
+    }
+
 }
 
 // Extra Small Devices
@@ -1154,6 +1162,10 @@ footer {
         a {
             font-size: 0.9em;
             padding: 5px 10px;
+        }
+
+        .ul-social {
+            font-size: 50%;
         }
     }
 
