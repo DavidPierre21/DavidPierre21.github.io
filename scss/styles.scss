@@ -267,7 +267,7 @@ footer {
         margin: 5px 0 0 0;
         padding: 0;
 
-        .smGlobalBtn { /* global button class */
+        .smGlobalBtn { /* global button class footer */
             display: inline-block;
             position: relative;
             cursor: pointer;
@@ -497,10 +497,14 @@ footer {
         list-style: none;
     }
       
-    .social, .social:hover {
+    .social {
         font-size: 2em;
         color: white;
         padding: 20px;
+    }
+
+    .social:hover {
+        color: #474747;
     }
 
     h1, h2 {
@@ -511,7 +515,7 @@ footer {
         color: #fff;
         font-weight: 900;
         font-size: 5em;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         letter-spacing: 0.05em;
         line-height: 0.9em;
     }
@@ -677,7 +681,7 @@ footer {
 .vtimeline-point {
     position: relative;
     display: block;
-    vertical-align: top;
+    // vertical-align: top;
     margin-bottom: 30px;
 }
 

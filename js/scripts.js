@@ -32,7 +32,7 @@
     $('#to-top').click(function() {
         $('html, body').animate({
             scrollTop: 0
-        }, 1000);
+        }, 2000);
     });
 
     // Scroll to first element
@@ -40,7 +40,7 @@
         var scrollDistance = $('#lead').next().offset().top;
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
-        }, 1000);
+        }, 2000);
     });
 
 
@@ -50,13 +50,13 @@
         var target = $(this).attr('href');
         $('html, body').animate({
           scrollTop: ($(target).offset().top)
-        }, 1000);
+        }, 2000);
      });
 
     // Activate onscroll
     window.onscroll = function() {scrollFunction()};
 
-    // Make side top butto appear or desappear
+    // Make side top button appear or desappear
     function scrollFunction() {
         var scrollHeight = $(document).height();
         var scrollPosition = $(window).height() + $(window).scrollTop();
