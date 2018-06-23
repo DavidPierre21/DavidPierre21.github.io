@@ -197,11 +197,7 @@ header {
 }
 
 #menu {
-    -webkit-transition: all 0.6s ease-out;
-    -moz-transition: all 0.6s ease-out;
-    -o-transition: all 0.6s ease-out;
-    -ms-transition: all 0.6s ease-out;
-    transition: all 0.6s ease-out;
+    @include transition();
 
     &.active {
         display: block;
@@ -416,11 +412,16 @@ footer {
     border-radius: 30px;
     @include transition();
 
+    &:active{
+        color: #fff;    
+    }
+
     &:hover {
         color: $base-color;
         background: #fff;
         text-decoration: none;
     }
+
 }
 
 .shadow {
