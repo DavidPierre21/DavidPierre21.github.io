@@ -27,7 +27,8 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+// $base-color: #3498db;
+$base-color: #1a1a1a;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -521,7 +522,8 @@ footer {
     }
 
     .social:hover {
-        color: #474747;
+        // color: #474747;
+        color: #a1a1a1;
     }
 
     h1, h2 {
@@ -538,7 +540,7 @@ footer {
     }
 
     h2 {
-        color: lighten($base-color, 25%);
+        color: lighten($base-color, 35%);
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
