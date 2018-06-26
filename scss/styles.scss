@@ -518,7 +518,8 @@ footer {
     .social {
         font-size: 2em;
         color: white;
-        padding: 20px;
+        padding: 0px;
+        margin: 24px;
     }
 
     .social:hover {
@@ -1047,7 +1048,7 @@ footer {
 
     header{
         ul {
-            background: $background;
+            background: rgba($background, 0.9);
         }
 
         a {
