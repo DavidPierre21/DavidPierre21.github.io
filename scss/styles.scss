@@ -88,6 +88,26 @@ body {
     }
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: $background-alt; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(88, 88, 88); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(66, 66, 66); 
+}
+
 // No JS styles
 .no-js {
     #experience-timeline {
