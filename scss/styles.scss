@@ -1048,6 +1048,11 @@ footer {
         }
     }
 
+    // #lead-404 {
+    //     width: 100%;
+    //     height: auto;
+    // }
+
     #experience-timeline {
         &:before, &:after {
             left: 23px;
@@ -1086,6 +1091,14 @@ footer {
             color: $base-color;
         }
     }
+
+    #lead-404 {
+        height: auto;
+        min-height: auto;
+        max-height: auto;
+        padding: 100px 15px;
+    }
+
 
     #lead {
         height: auto;
@@ -1243,9 +1256,3 @@ footer {
     }
 
 }
-
-/*
-    -----------------------------
-    ------- 13. 404 PAGE --------
-    -----------------------------
-*/
