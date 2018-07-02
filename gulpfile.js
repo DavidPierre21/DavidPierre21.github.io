@@ -46,6 +46,8 @@ gulp.task('watch', ['scripts', 'styles'], function() {
     });
 
     gulp.watch("*.html").on("change", reload);
+    gulp.watch("scss/*.scss").on("change", reload);
+    gulp.watch("js/*.js").on("change", reload);
 
 
 });
