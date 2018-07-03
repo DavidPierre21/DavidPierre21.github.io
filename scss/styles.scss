@@ -511,7 +511,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/drawing.png);
+    background: url(../images/drawing-pc.svg) no-repeat;
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -1256,6 +1256,13 @@ footer {
         max-width: 100%;
         padding: 100px 15px;
     }
+
+    #lead {
+        max-width: 100vw;
+        height:auto;
+        width:auto;
+        max-height:100vh;
+        }
 
     #lead-content {
         h1 {
