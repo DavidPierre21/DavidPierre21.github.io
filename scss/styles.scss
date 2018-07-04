@@ -658,6 +658,7 @@ footer {
         margin: 0;    
     }
 
+
     #id-pic {
         margin-top: 20px;
         border-radius: 50%;
@@ -1105,6 +1106,15 @@ footer {
         }
     }
 
+    #about {
+        #id-pic {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+        }
+    }
+
     #lead-404 {
         max-width: 100vw;
         height:auto;
@@ -1166,6 +1176,15 @@ footer {
 
         a {
             color: $base-color;
+        }
+    }
+
+    #about {
+        #id-pic {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
         }
     }
 
@@ -1253,6 +1272,15 @@ footer {
 
         a {
             color: $base-color;
+        }
+    }
+
+    #about {
+        #id-pic {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
         }
     }
 
