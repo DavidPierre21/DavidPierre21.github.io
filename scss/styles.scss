@@ -511,7 +511,8 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/drawing-pc.svg) no-repeat center bottom;
+    // background: url(../images/drawing-pc.svg) no-repeat center bottom;
+    background: url(../images/lead-bg.jpg) no-repeat center;
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -587,7 +588,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($base-color-hover, 0.6);
+    background: rgba($base-color-hover, 0.8);
     // background: rgba($base-color-hover, 0.4);
     z-index: 1;
 }
