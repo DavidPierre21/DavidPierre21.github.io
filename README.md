@@ -2,7 +2,7 @@
 
 ## A personal portfolio page
 
-###Features:
+### Features:
 * Responsive
 * Customizable
 * Built with bootstrap
